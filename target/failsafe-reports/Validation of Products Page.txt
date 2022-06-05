@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Validation of Products Page
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 18.215 s <<< FAILURE! - in Validation of Products Page
+Validation of New Product Creation #7(Validation of Products Page)  Time elapsed: 1.241 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[New order has been successfully added.]> but was:<[]>
+
+Validation of New Product Creation #8(Validation of Products Page)  Time elapsed: 1.032 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[New order has been successfully added.]> but was:<[]>
+
+Validation of New Product Creation #9(Validation of Products Page)  Time elapsed: 0.948 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[New order has been successfully added.]> but was:<[]>
+
+Validation of New Product Creation #10(Validation of Products Page)  Time elapsed: 1.008 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[New order has been successfully added.]> but was:<[]>
+

@@ -1,0 +1,1628 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-14T17:01:29.473Z",
+        "line": 23,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4080594000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322229000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"MyMoney\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 440465000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Techtorial\" , \"2200 E Devon\" , \"Des Plaines\" , \"IL\" , \"60018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techtorial\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 88
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 449554000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"Visa\" , \"1343565342\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visa\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"1343565342\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 150455000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603746000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user validate product details \"MyMoney\", \"4\" , \"Techtorial\" , \"2200 E Devon\" , \"Des Plaines\" , \"IL\" , \"60018\", \"Visa\" , \"1343565342\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Techtorial\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"Visa\"",
+                  "offset": 115
+                },
+                {
+                  "val": "\"1343565342\"",
+                  "offset": 124
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 138
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:01:35.545Z",
+        "line": 24,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 605962000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 320024000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"FamilyAlbum\" and \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FamilyAlbum\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 293823000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Academy\" , \"2200 E Devon\" , \"Austin\" , \"TX\" , \"90007\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Academy\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"TX\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"90007\"",
+                  "offset": 80
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224682000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"MasterCard\" , \"4444555566667777\", \"08/21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MasterCard\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"4444555566667777\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"08/21\"",
+                  "offset": 65
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 185678000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387728000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user validate product details \"FamilyAlbum\", \"2\" , \"Academy\" , \"2200 E Devon\" , \"Austin\" , \"TX\" , \"90007\", \"MasterCard\" , \"4444555566667777\", \"08/21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FamilyAlbum\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Academy\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"TX\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"90007\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"MasterCard\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"4444555566667777\"",
+                  "offset": 126
+                },
+                {
+                  "val": "\"08/21\"",
+                  "offset": 146
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:01:37.572Z",
+        "line": 25,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 644150000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264677000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"ScreenSaver\" and \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ScreenSaver\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250213000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Techtorial1\" , \"2200 E Devon\" , \"Chicago\" , \"IL\" , \"60066\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techtorial1\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"60066\"",
+                  "offset": 85
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 395761000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"American Express\" , \"5555666677778888\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"American Express\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"5555666677778888\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 71
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 38141000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453704000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user validate product details \"ScreenSaver\", \"5\" , \"Techtorial1\" , \"2200 E Devon\" , \"Chicago\" , \"IL\" , \"60066\", \"American Express\" , \"5555666677778888\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ScreenSaver\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Techtorial1\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"60066\"",
+                  "offset": 107
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 116
+                },
+                {
+                  "val": "\"5555666677778888\"",
+                  "offset": 137
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 157
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:01:39.632Z",
+        "line": 26,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 591770000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217847000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"MyMoney\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274835000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Techtorial\" , \"2200 E Devon\" , \"Des Plaines\" , \"IL\" , \"60018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techtorial\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 88
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304571000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"Visa\" , \"1343565342\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visa\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"1343565342\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 30167000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434281000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user validate product details \"MyMoney\", \"4\" , \"Techtorial\" , \"2200 E Devon\" , \"Des Plaines\" , \"IL\" , \"60018\", \"Visa\" , \"1343565342\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Techtorial\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"Visa\"",
+                  "offset": 115
+                },
+                {
+                  "val": "\"1343565342\"",
+                  "offset": 124
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 138
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:01:41.495Z",
+        "line": 27,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 579161000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265316000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"FamilyAlbum\" and \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FamilyAlbum\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237970000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Academy\" , \"2200 E Devon\" , \"Austin\" , \"TX\" , \"90007\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Academy\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"TX\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"90007\"",
+                  "offset": 80
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241124000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"MasterCard\" , \"4444555566667777\", \"08/21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MasterCard\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"4444555566667777\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"08/21\"",
+                  "offset": 65
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 122285000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410656000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user validate product details \"FamilyAlbum\", \"2\" , \"Academy\" , \"2200 E Devon\" , \"Austin\" , \"TX\" , \"90007\", \"MasterCard\" , \"4444555566667777\", \"08/21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FamilyAlbum\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Academy\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"TX\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"90007\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"MasterCard\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"4444555566667777\"",
+                  "offset": 126
+                },
+                {
+                  "val": "\"08/21\"",
+                  "offset": 146
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:01:43.357Z",
+        "line": 28,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 547760000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 220157000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"ScreenSaver\" and \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ScreenSaver\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278566000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Techtorial1\" , \"2200 E Devon\" , \"Chicago\" , \"IL\" , \"60066\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techtorial1\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"60066\"",
+                  "offset": 85
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169083000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"American Express\" , \"5555666677778888\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"American Express\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"5555666677778888\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 71
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[New order has been successfully added.]\u003e but was:\u003c[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.com.productsteps.ProductSteps.the_user_validate_success_message(ProductSteps.java:53)\n\tat ✽.the user validate success message(file:///Users/muammerturan/Documents/TechtorialCucumber/src/test/resources/com.products/ProductsScenario.feature:19)\n",
+              "duration": 16192000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user validate product details \"ScreenSaver\", \"5\" , \"Techtorial1\" , \"2200 E Devon\" , \"Chicago\" , \"IL\" , \"60066\", \"American Express\" , \"5555666677778888\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ScreenSaver\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Techtorial1\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"60066\"",
+                  "offset": 107
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 116
+                },
+                {
+                  "val": "\"5555666677778888\"",
+                  "offset": 137
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 157
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:01:44.599Z",
+        "line": 29,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 524496000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170111000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"MyMoney\" and \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188536000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Techtorial\" , \"2200 E Devon\" , \"Des Plaines\" , \"IL\" , \"60018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techtorial\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 88
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129769000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"Visa\" , \"1343565342\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visa\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"1343565342\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[New order has been successfully added.]\u003e but was:\u003c[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.com.productsteps.ProductSteps.the_user_validate_success_message(ProductSteps.java:53)\n\tat ✽.the user validate success message(file:///Users/muammerturan/Documents/TechtorialCucumber/src/test/resources/com.products/ProductsScenario.feature:19)\n",
+              "duration": 13063000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user validate product details \"MyMoney\", \"4\" , \"Techtorial\" , \"2200 E Devon\" , \"Des Plaines\" , \"IL\" , \"60018\", \"Visa\" , \"1343565342\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyMoney\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Techtorial\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"Des Plaines\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"60018\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"Visa\"",
+                  "offset": 115
+                },
+                {
+                  "val": "\"1343565342\"",
+                  "offset": 124
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 138
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:01:45.630Z",
+        "line": 30,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 452091000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180095000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"FamilyAlbum\" and \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FamilyAlbum\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159322000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Academy\" , \"2200 E Devon\" , \"Austin\" , \"TX\" , \"90007\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Academy\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"TX\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"90007\"",
+                  "offset": 80
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135101000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"MasterCard\" , \"4444555566667777\", \"08/21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MasterCard\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"4444555566667777\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"08/21\"",
+                  "offset": 65
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[New order has been successfully added.]\u003e but was:\u003c[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.com.productsteps.ProductSteps.the_user_validate_success_message(ProductSteps.java:53)\n\tat ✽.the user validate success message(file:///Users/muammerturan/Documents/TechtorialCucumber/src/test/resources/com.products/ProductsScenario.feature:19)\n",
+              "duration": 16145000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user validate product details \"FamilyAlbum\", \"2\" , \"Academy\" , \"2200 E Devon\" , \"Austin\" , \"TX\" , \"90007\", \"MasterCard\" , \"4444555566667777\", \"08/21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FamilyAlbum\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Academy\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"Austin\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"TX\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"90007\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"MasterCard\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"4444555566667777\"",
+                  "offset": 126
+                },
+                {
+                  "val": "\"08/21\"",
+                  "offset": 146
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:01:46.577Z",
+        "line": 31,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 484065000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user navigates product website home page",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_navigates_product_website_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191177000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters the product info \"ScreenSaver\" and \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ScreenSaver\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_product_info_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178954000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters the address info \"Techtorial1\" , \"2200 E Devon\" , \"Chicago\" , \"IL\" , \"60066\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techtorial1\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"60066\"",
+                  "offset": 85
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_address_info(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132811000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters the card info \"American Express\" , \"5555666677778888\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"American Express\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"5555666677778888\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 71
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_enters_the_card_info(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[New order has been successfully added.]\u003e but was:\u003c[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.com.productsteps.ProductSteps.the_user_validate_success_message(ProductSteps.java:53)\n\tat ✽.the user validate success message(file:///Users/muammerturan/Documents/TechtorialCucumber/src/test/resources/com.products/ProductsScenario.feature:19)\n",
+              "duration": 16537000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "the user validate success message",
+            "match": {
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_success_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user validate product details \"ScreenSaver\", \"5\" , \"Techtorial1\" , \"2200 E Devon\" , \"Chicago\" , \"IL\" , \"60066\", \"American Express\" , \"5555666677778888\", \"04/22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ScreenSaver\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Techtorial1\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"2200 E Devon\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"60066\"",
+                  "offset": 107
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 116
+                },
+                {
+                  "val": "\"5555666677778888\"",
+                  "offset": 137
+                },
+                {
+                  "val": "\"04/22\"",
+                  "offset": 157
+                }
+              ],
+              "location": "steps.com.productsteps.ProductSteps.the_user_validate_product_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Products Page",
+    "description": "",
+    "id": "validation-of-products-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.products/ProductsScenario.feature",
+    "tags": []
+  }
+]

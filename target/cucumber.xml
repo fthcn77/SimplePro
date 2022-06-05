@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="18.257">
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation" time="6.06">
+        <system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "MyMoney" and "4".....................passed
+And the user enters the address info "Techtorial" , "2200 E Devon" , "Des Plaines" , "IL" , "60018".passed
+* the user enters the card info "Visa" , "1343565342", "04/22"..............passed
+And the user validate success message.......................................passed
+Then the user validate product details "MyMoney", "4" , "Techtorial" , "2200 E Devon" , "Des Plaines" , "IL" , "60018", "Visa" , "1343565342", "04/22".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 2" time="2.021">
+        <system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "FamilyAlbum" and "2".................passed
+And the user enters the address info "Academy" , "2200 E Devon" , "Austin" , "TX" , "90007".passed
+* the user enters the card info "MasterCard" , "4444555566667777", "08/21"..passed
+And the user validate success message.......................................passed
+Then the user validate product details "FamilyAlbum", "2" , "Academy" , "2200 E Devon" , "Austin" , "TX" , "90007", "MasterCard" , "4444555566667777", "08/21".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 3" time="2.051">
+        <system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "ScreenSaver" and "5".................passed
+And the user enters the address info "Techtorial1" , "2200 E Devon" , "Chicago" , "IL" , "60066".passed
+* the user enters the card info "American Express" , "5555666677778888", "04/22".passed
+And the user validate success message.......................................passed
+Then the user validate product details "ScreenSaver", "5" , "Techtorial1" , "2200 E Devon" , "Chicago" , "IL" , "60066", "American Express" , "5555666677778888", "04/22".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 4" time="1.855">
+        <system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "MyMoney" and "4".....................passed
+And the user enters the address info "Techtorial" , "2200 E Devon" , "Des Plaines" , "IL" , "60018".passed
+* the user enters the card info "Visa" , "1343565342", "04/22"..............passed
+And the user validate success message.......................................passed
+Then the user validate product details "MyMoney", "4" , "Techtorial" , "2200 E Devon" , "Des Plaines" , "IL" , "60018", "Visa" , "1343565342", "04/22".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 5" time="1.858">
+        <system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "FamilyAlbum" and "2".................passed
+And the user enters the address info "Academy" , "2200 E Devon" , "Austin" , "TX" , "90007".passed
+* the user enters the card info "MasterCard" , "4444555566667777", "08/21"..passed
+And the user validate success message.......................................passed
+Then the user validate product details "FamilyAlbum", "2" , "Academy" , "2200 E Devon" , "Austin" , "TX" , "90007", "MasterCard" , "4444555566667777", "08/21".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 6" time="1.236">
+        <failure message="expected:&lt;[New order has been successfully added.]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "ScreenSaver" and "5".................passed
+And the user enters the address info "Techtorial1" , "2200 E Devon" , "Chicago" , "IL" , "60066".passed
+* the user enters the card info "American Express" , "5555666677778888", "04/22".passed
+And the user validate success message.......................................failed
+Then the user validate product details "ScreenSaver", "5" , "Techtorial1" , "2200 E Devon" , "Chicago" , "IL" , "60066", "American Express" , "5555666677778888", "04/22".skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[New order has been successfully added.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.com.productsteps.ProductSteps.the_user_validate_success_message(ProductSteps.java:53)
+	at ✽.the user validate success message(file:///Users/muammerturan/Documents/TechtorialCucumber/src/test/resources/com.products/ProductsScenario.feature:19)
+]]></failure>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 7" time="1.028">
+        <failure message="expected:&lt;[New order has been successfully added.]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "MyMoney" and "4".....................passed
+And the user enters the address info "Techtorial" , "2200 E Devon" , "Des Plaines" , "IL" , "60018".passed
+* the user enters the card info "Visa" , "1343565342", "04/22"..............passed
+And the user validate success message.......................................failed
+Then the user validate product details "MyMoney", "4" , "Techtorial" , "2200 E Devon" , "Des Plaines" , "IL" , "60018", "Visa" , "1343565342", "04/22".skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[New order has been successfully added.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.com.productsteps.ProductSteps.the_user_validate_success_message(ProductSteps.java:53)
+	at ✽.the user validate success message(file:///Users/muammerturan/Documents/TechtorialCucumber/src/test/resources/com.products/ProductsScenario.feature:19)
+]]></failure>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 8" time="0.944">
+        <failure message="expected:&lt;[New order has been successfully added.]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "FamilyAlbum" and "2".................passed
+And the user enters the address info "Academy" , "2200 E Devon" , "Austin" , "TX" , "90007".passed
+* the user enters the card info "MasterCard" , "4444555566667777", "08/21"..passed
+And the user validate success message.......................................failed
+Then the user validate product details "FamilyAlbum", "2" , "Academy" , "2200 E Devon" , "Austin" , "TX" , "90007", "MasterCard" , "4444555566667777", "08/21".skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[New order has been successfully added.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.com.productsteps.ProductSteps.the_user_validate_success_message(ProductSteps.java:53)
+	at ✽.the user validate success message(file:///Users/muammerturan/Documents/TechtorialCucumber/src/test/resources/com.products/ProductsScenario.feature:19)
+]]></failure>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 9" time="1.005">
+        <failure message="expected:&lt;[New order has been successfully added.]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "ScreenSaver" and "5".................passed
+And the user enters the address info "Techtorial1" , "2200 E Devon" , "Chicago" , "IL" , "60066".passed
+* the user enters the card info "American Express" , "5555666677778888", "04/22".passed
+And the user validate success message.......................................failed
+Then the user validate product details "ScreenSaver", "5" , "Techtorial1" , "2200 E Devon" , "Chicago" , "IL" , "60066", "American Express" , "5555666677778888", "04/22".skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[New order has been successfully added.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.com.productsteps.ProductSteps.the_user_validate_success_message(ProductSteps.java:53)
+	at ✽.the user validate success message(file:///Users/muammerturan/Documents/TechtorialCucumber/src/test/resources/com.products/ProductsScenario.feature:19)
+]]></failure>
+    </testcase>
+</testsuite>
